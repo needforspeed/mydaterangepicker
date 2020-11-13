@@ -10,7 +10,8 @@
     "moduleResolution": "node",
     "removeComments": true,
     "noImplicitAny": true,
-    "suppressImplicitAnyIndexErrors": true
+    "suppressImplicitAnyIndexErrors": true,
+    "lib" : ["es2015", "es2015.iterable", "dom"]
   },
   "exclude": [
     "node_modules",
