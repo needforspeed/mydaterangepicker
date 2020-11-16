@@ -17,8 +17,8 @@ enum MonthId {prev = 1, curr = 2, next = 3}
 @Component({
     selector: "my-date-range-picker",
     exportAs: "mydaterangepicker",
-    styles: ["./my-date-range-picker.component.css"],
-    template: "./my-date-range-picker.component.html",
+    styleUrls: ["./my-date-range-picker.component.css"],
+    templateUrl: "./my-date-range-picker.component.html",
     providers: [DateRangeUtilService, MYDRP_VALUE_ACCESSOR],
     encapsulation: ViewEncapsulation.None
 })

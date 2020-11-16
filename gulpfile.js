@@ -55,8 +55,8 @@ gulp.task('inline.template.and.styles.to.component', function() {
   return gulp.src(['./src/my-date-range-picker/my-date-range-picker.component.ts'])
     .pipe(replace(str1, str3))
     .pipe(replace(str2, str4))
-    .pipe(replace('styles: [myDrpStyles],', 'styles: [' + '`' + styles + '`' + '],'))
-    .pipe(replace('template: myDrpTemplate,', 'template: `' + htmlTpl + '`' + ','))
+    .pipe(replace('styleUrls: ["./my-date-range-picker.component.css"],', 'styles: [' + '`' + styles + '`' + '],'))
+    .pipe(replace('templateUrl: "./my-date-range-picker.component.html",', 'template: `' + htmlTpl + '`' + ','))
     .pipe(gulp.dest(function(file) {
       return file.base;
     }));
