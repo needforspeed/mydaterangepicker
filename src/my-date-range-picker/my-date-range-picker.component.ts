@@ -33,7 +33,7 @@ export class MyDateRangePicker implements OnChanges, OnDestroy, ControlValueAcce
     @Output() calendarViewChanged: EventEmitter<IMyCalendarViewChanged> = new EventEmitter<IMyCalendarViewChanged>();
     @Output() inputFocusBlur: EventEmitter<IMyInputFocusBlur> = new EventEmitter<IMyInputFocusBlur>();
     @Output() dateSelected: EventEmitter<IMyDateSelected> = new EventEmitter<IMyDateSelected>();
-    @ViewChild("selectorEl") selectorEl: any;
+    @ViewChild("selectorEl", {static: false}) selectorEl: any;
 
     onChangeCb: (_: any) => void = () => { };
     onTouchedCb: () => void = () => { };

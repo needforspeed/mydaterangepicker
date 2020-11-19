@@ -8,9 +8,9 @@
 [![npm](https://img.shields.io/npm/dm/mydaterangepicker-fix.svg)](https://www.npmjs.com/package/mydaterangepicker-fix)
 
 ## Description
-Highly configurable Angular date range picker. Compatible __Angular6+__.
+Highly configurable Angular date range picker. Compatible __Angular__.
 
-Online demo is [here](http://needforspeed.github.io/mydaterangepicker)
+Online demo is [here](http://needforspeed.github.io/mydaterangepicker/)
 
 ## Installation
 
